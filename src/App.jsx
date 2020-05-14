@@ -3,7 +3,6 @@ import Phrase from './Phrase';
 import GlobalStyle from './styles/GlobalStyle';
 import { Wrapper, Button } from './styles/Styles';
 
-
 function App() {
   const API_URL = 'https://breaking-bad-quotes.herokuapp.com/v1/quotes';
 
@@ -20,7 +19,6 @@ function App() {
         .catch((error) => { console.log(`No se pudo realizar la consulta. Error => ${error}`); });
     }, 0);
   };
-
 
   return (
     <>

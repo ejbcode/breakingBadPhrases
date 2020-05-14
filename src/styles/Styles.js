@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
   align-items: center;
   justify-content:center;
   height: 100vh;
-  margin-top: -30px
+  margin-top: -30px;
 `;
 
 export const PhraseContainer = styled.div`
@@ -30,28 +30,22 @@ export const PhraseContainer = styled.div`
     padding-left: 2rem;
       &::before {
       content: open-quote;
-      font-size: 5rem;
+      font-size: 4rem;
       color: black;
       position: absolute;
-      left: -2rem;
-      top: -2rem; 
+      left: -1rem;
+      top: -2rem;
 
       }
   }
 
   p {
-
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2vw;
     font-weight: bold;
     text-align: right;
     color: #666;
     margin:0px;
-  }
-
-  
-  @media (min-width:992) {
-    margin-top: 10rem;
   }
 `;
 
